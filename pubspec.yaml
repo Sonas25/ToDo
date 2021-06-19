@@ -23,6 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  hive: ^2.0.4
+  hive_flutter: ^1.0.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -30,6 +32,8 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
+  build_runner : ^1.12.2
+  hive_generator: ^1.0.1
   flutter_test:
     sdk: flutter
 
